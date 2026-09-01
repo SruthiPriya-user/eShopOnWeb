@@ -6,7 +6,7 @@ cname: eShopOnWeb Build and Test
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-devOps-eshopeonweb-2370758
-  LOCATION: westeus
+  LOCATION: westus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: fddb0c44-5199-47a9-a825-b22b5b1ef5c5
   WEBAPP-NAME: eshoponweb-webapp-2370758
